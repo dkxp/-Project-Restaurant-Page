@@ -104,3 +104,23 @@ hr {
     border: 2px solid #c59d5f;
     margin: 24px auto;
 }
+.home.aboutBody {
+    grid-row: 2;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: transparent;
+    font-size: 70px;
+    color: #C59D5F;
+    padding: 20px;
+    padding-top: 80px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #C59D5F;
+    background-color: #F2F2F2;
+}
+.aboutMainContent {
+    max-width: 600px;
+    font-size: large;
+}

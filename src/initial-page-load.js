@@ -1,6 +1,6 @@
 import Background from './background.png';
 import { menuLoad } from './menu-tab';
-
+import { aboutLoad } from './about-tab';
 let content = document.getElementById('content');
 
 export const setBackGroundImage = () => {
@@ -33,6 +33,12 @@ export const createTopNav = () => {
       .removeChild(document.querySelector('.home'));
   });
   menu.addEventListener('click', menuLoad);
+  about.addEventListener('click', () => {
+    document
+      .getElementById('content')
+      .removeChild(document.querySelector('.home'));
+  });
+  about.addEventListener('click', aboutLoad);
 };
 
 export const setHomeContent = () => {
